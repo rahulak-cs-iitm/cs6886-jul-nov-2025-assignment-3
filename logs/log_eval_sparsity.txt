@@ -1,0 +1,25 @@
+Files already downloaded and verified
+Files already downloaded and verified
+
+-------------- Evaluating Original Model -------------
+Original accuracy: 94.87%
+
+-------------- Evaluating Pruned Model -------------
+Pruned accuracy: 94.40%
+
+Accuracy Difference (Original - Pruned): 0.47%
+
+
+-------------- Calculating Sparsity -------------
+
+--- Sparsity Comparison ---
+Model 1 (./checkpoints/mobilenetv2_cifar10.pth):
+  Total Weight Elements: 2,219,616
+  Zero Weight Elements:  0
+  Overall Sparsity:      0.00%
+
+Model 2 (./checkpoints/mobilenetv2_cifar10_pruned.pth):
+  Total Weight Elements: 2,219,616
+  Zero Weight Elements:  2,105,689
+  Overall Sparsity:      94.87%
+Sparsity Difference (Pruned - Original): 94.87 percentage points

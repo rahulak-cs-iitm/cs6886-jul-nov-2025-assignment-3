@@ -1,0 +1,49 @@
+Input model (int8): ./checkpoints/int8_mobilenetv2_pruned_symmetric_quantized_8bit.pth (2.47 MB)
+============================================================
+STEP 1: ENCODING TO SPARSE FORMAT
+============================================================
+Loading model: ./checkpoints/int8_mobilenetv2_pruned_symmetric_quantized_8bit.pth
+
+==================================================
+ENCODING RESULTS
+==================================================
+Total weights: 2,202,560
+Stored values: 96,871 (4.4%)
+Overall sparsity: 95.6%
+File size: 2.47 MB → 0.99 MB
+Compression: 2.5x
+============================================================
+STEP 2: COMPARING MODEL ACCURACIES
+============================================================
+
+============================================================
+MODEL ACCURACY COMPARISON
+============================================================
+1. Testing ORIGINAL Model...
+Loading original (int8) model...
+Files already downloaded and verified
+Files already downloaded and verified
+Evaluating original model accuracy...
+2. Testing COMPRESSED Model...
+Loading compressed model...
+Decoding sparse model: ./checkpoints/mobilenetv2_sparse_compression.pth
+Files already downloaded and verified
+Files already downloaded and verified
+Evaluating compressed model accuracy...
+
+============================================================
+COMPARISON RESULTS
+============================================================
+Model           | Size (MB)  | Accuracy (%)
+------------------------------------------------------------
+Original        |     2.47  |      94.47
+Compressed      |     0.99  |      94.47   
+------------------------------------------------------------
+Compression Ratio: 2.5x
+Accuracy Drop: +0.00%
+============================================================
+FINAL SUMMARY
+============================================================
+Original Accuracy   : 94.47%
+Compressed Accuracy : 94.47%
+Compression Ratio   : 2.5x

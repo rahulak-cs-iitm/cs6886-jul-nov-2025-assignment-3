@@ -1,0 +1,40 @@
+Using device: cuda
+Files already downloaded and verified
+Files already downloaded and verified
+Loading pruned model from: ./checkpoints/mobilenetv2_cifar10_pruned.pth
+
+======================================================================
+Starting Symmetric Quantization
+======================================================================
+
+=== Baseline: Original Pruned Model ===
+Baseline accuracy: 94.40%
+
+=== Symmetric Quantization: 16-bit ===
+Weights Quantized to 16-bit | Activations Quantized to 16-bit
+Accuracy: 94.41%
+Quantization time: 0.17s
+Accuracy drop: -0.01%
+Saved: ./checkpoints/mobilenetv2_pruned_symmetric_quantized_16bit.pth
+
+=== Symmetric Quantization: 8-bit ===
+Weights Quantized to 8-bit | Activations Quantized to 8-bit
+Accuracy: 94.03%
+Quantization time: 0.02s
+Accuracy drop: 0.37%
+Saved: ./checkpoints/mobilenetv2_pruned_symmetric_quantized_8bit.pth
+
+=== Symmetric Quantization: 4-bit ===
+Weights Quantized to 4-bit | Activations Quantized to 4-bit
+Accuracy: 11.73%
+Quantization time: 0.02s
+Accuracy drop: 82.67%
+Saved: ./checkpoints/mobilenetv2_pruned_symmetric_quantized_4bit.pth
+Plot saved: ./plots/symmetric_quantization_results.png
+
+Model Size Analysis:
+  Total parameters: 2,236,682
+  32-bit model size: 8.53 MB | Accuracy: 94.4%
+  16-bit model size: 4.27 MB | Accuracy: 94.41%
+  8-bit model size:  2.13 MB | Accuracy: 94.03%
+  4-bit model size:  1.07 MB | Accuracy: 11.73%

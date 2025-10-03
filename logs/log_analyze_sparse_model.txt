@@ -1,0 +1,28 @@
+ANALYZING SPARSE MODEL: ./checkpoints/mobilenetv2_sparse_compression.pth
+Loaded sparse model successfully
+Total file size: 1,040,842 bytes (0.99 MB)
+
+STORAGE BREAKDOWN:
+--------------------------------------------------------------------------------
+Total sparse weights: 602,635 bytes (0.57 MB)
+
+2. OTHER PARAMETERS (261 items):
+Total other params: 273,352 bytes (0.26 MB)
+
+3. SCALES (53 items):
+Total scales: 1,272 bytes
+
+4. METADATA:
+  {'total_weights': 2202560, 'stored_values': 96871}
+  Metadata size: 232 bytes
+
+================================================================================
+Profile of Storage Use:
+================================================================================
+Category                  | Bytes           | MB       | %       
+-----------------------------------------------------------------
+Sparse Weight Data        | 602,635         | 0.57     | 57.9    
+Other Parameters          | 274,624         | 0.26     | 26.4    
+Metadata/Overhead         | 163,583         | 0.16     | 15.7    
+-----------------------------------------------------------------
+TOTAL                     | 1,040,842       | 0.99     | 100.0   

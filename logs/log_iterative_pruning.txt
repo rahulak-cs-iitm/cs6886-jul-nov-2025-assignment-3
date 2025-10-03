@@ -1,0 +1,262 @@
+Using device: cuda
+Files already downloaded and verified
+Files already downloaded and verified
+Loading pre-trained model from ./checkpoints/mobilenetv2_cifar10.pth
+
+Initial Test Accuracy: 94.87%
+Initial Sparsity: 0.00%
+
+--- Iteration 1/80 ---
+Pruned 20.00% of remaining weights. New threshold: 1.2532346271854067e-09
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3616, Acc: 88.99%
+  Finetune Epoch 2/10 -> Loss: 0.3510, Acc: 88.81%
+  Finetune Epoch 3/10 -> Loss: 0.3458, Acc: 88.87%
+  Finetune Epoch 4/10 -> Loss: 0.3463, Acc: 88.72%
+  Finetune Epoch 5/10 -> Loss: 0.3423, Acc: 88.73%
+  Finetune Epoch 6/10 -> Loss: 0.3389, Acc: 88.79%
+  Finetune Epoch 7/10 -> Loss: 0.3420, Acc: 88.60%
+  Finetune Epoch 8/10 -> Loss: 0.3374, Acc: 88.62%
+  Finetune Epoch 9/10 -> Loss: 0.3407, Acc: 88.75%
+  Finetune Epoch 10/10 -> Loss: 0.3371, Acc: 88.74%
+  Iteration 1 -> Duration: 351.77s | Test Accuracy: 94.42%, Global Sparsity: 20.00%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 2/80 ---
+Pruned 20.00% of remaining weights. New threshold: 1.0625614166315245e-08
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3353, Acc: 88.78%
+  Finetune Epoch 2/10 -> Loss: 0.3338, Acc: 88.69%
+  Finetune Epoch 3/10 -> Loss: 0.3278, Acc: 88.91%
+  Finetune Epoch 4/10 -> Loss: 0.3267, Acc: 89.00%
+  Finetune Epoch 5/10 -> Loss: 0.3291, Acc: 88.87%
+  Finetune Epoch 6/10 -> Loss: 0.3355, Acc: 88.69%
+  Finetune Epoch 7/10 -> Loss: 0.3370, Acc: 88.56%
+  Finetune Epoch 8/10 -> Loss: 0.3316, Acc: 88.76%
+  Finetune Epoch 9/10 -> Loss: 0.3280, Acc: 88.91%
+  Finetune Epoch 10/10 -> Loss: 0.3311, Acc: 88.57%
+  Iteration 2 -> Duration: 376.36s | Test Accuracy: 94.42%, Global Sparsity: 36.00%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 3/80 ---
+Pruned 20.00% of remaining weights. New threshold: 1.4413333815355145e-07
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3322, Acc: 88.80%
+  Finetune Epoch 2/10 -> Loss: 0.3367, Acc: 88.37%
+  Finetune Epoch 3/10 -> Loss: 0.3323, Acc: 88.63%
+  Finetune Epoch 4/10 -> Loss: 0.3255, Acc: 89.00%
+  Finetune Epoch 5/10 -> Loss: 0.3208, Acc: 89.32%
+  Finetune Epoch 6/10 -> Loss: 0.3292, Acc: 88.61%
+  Finetune Epoch 7/10 -> Loss: 0.3304, Acc: 88.81%
+  Finetune Epoch 8/10 -> Loss: 0.3296, Acc: 88.69%
+  Finetune Epoch 9/10 -> Loss: 0.3242, Acc: 89.03%
+  Finetune Epoch 10/10 -> Loss: 0.3217, Acc: 89.00%
+  Iteration 3 -> Duration: 360.38s | Test Accuracy: 94.18%, Global Sparsity: 48.80%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 4/80 ---
+Pruned 20.00% of remaining weights. New threshold: 3.737162842298858e-06
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3268, Acc: 88.78%
+  Finetune Epoch 2/10 -> Loss: 0.3243, Acc: 88.91%
+  Finetune Epoch 3/10 -> Loss: 0.3239, Acc: 88.85%
+  Finetune Epoch 4/10 -> Loss: 0.3214, Acc: 89.01%
+  Finetune Epoch 5/10 -> Loss: 0.3174, Acc: 89.13%
+  Finetune Epoch 6/10 -> Loss: 0.3271, Acc: 88.80%
+  Finetune Epoch 7/10 -> Loss: 0.3263, Acc: 88.77%
+  Finetune Epoch 8/10 -> Loss: 0.3188, Acc: 89.11%
+  Finetune Epoch 9/10 -> Loss: 0.3235, Acc: 88.82%
+  Finetune Epoch 10/10 -> Loss: 0.3201, Acc: 89.07%
+  Iteration 4 -> Duration: 350.85s | Test Accuracy: 94.55%, Global Sparsity: 59.04%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 5/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.00032402336364611983
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3162, Acc: 89.11%
+  Finetune Epoch 2/10 -> Loss: 0.3223, Acc: 88.92%
+  Finetune Epoch 3/10 -> Loss: 0.3254, Acc: 88.91%
+  Finetune Epoch 4/10 -> Loss: 0.3189, Acc: 88.89%
+  Finetune Epoch 5/10 -> Loss: 0.3236, Acc: 88.89%
+  Finetune Epoch 6/10 -> Loss: 0.3215, Acc: 88.83%
+  Finetune Epoch 7/10 -> Loss: 0.3147, Acc: 89.18%
+  Finetune Epoch 8/10 -> Loss: 0.3187, Acc: 89.15%
+  Finetune Epoch 9/10 -> Loss: 0.3248, Acc: 88.82%
+  Finetune Epoch 10/10 -> Loss: 0.3195, Acc: 88.98%
+  Iteration 5 -> Duration: 350.61s | Test Accuracy: 94.17%, Global Sparsity: 67.23%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 6/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.0014067975571379066
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3157, Acc: 89.09%
+  Finetune Epoch 2/10 -> Loss: 0.3178, Acc: 89.03%
+  Finetune Epoch 3/10 -> Loss: 0.3166, Acc: 89.11%
+  Finetune Epoch 4/10 -> Loss: 0.3225, Acc: 89.02%
+  Finetune Epoch 5/10 -> Loss: 0.3102, Acc: 89.36%
+  Finetune Epoch 6/10 -> Loss: 0.3166, Acc: 89.05%
+  Finetune Epoch 7/10 -> Loss: 0.3156, Acc: 89.09%
+  Finetune Epoch 8/10 -> Loss: 0.3120, Acc: 89.25%
+  Finetune Epoch 9/10 -> Loss: 0.3163, Acc: 89.13%
+  Finetune Epoch 10/10 -> Loss: 0.3149, Acc: 89.17%
+  Iteration 6 -> Duration: 350.41s | Test Accuracy: 94.51%, Global Sparsity: 73.79%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 7/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.0025023026391863823
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3150, Acc: 89.12%
+  Finetune Epoch 2/10 -> Loss: 0.3099, Acc: 89.36%
+  Finetune Epoch 3/10 -> Loss: 0.3147, Acc: 88.94%
+  Finetune Epoch 4/10 -> Loss: 0.3097, Acc: 89.41%
+  Finetune Epoch 5/10 -> Loss: 0.3086, Acc: 89.39%
+  Finetune Epoch 6/10 -> Loss: 0.3113, Acc: 89.26%
+  Finetune Epoch 7/10 -> Loss: 0.3092, Acc: 89.40%
+  Finetune Epoch 8/10 -> Loss: 0.3100, Acc: 89.40%
+  Finetune Epoch 9/10 -> Loss: 0.3118, Acc: 89.21%
+  Finetune Epoch 10/10 -> Loss: 0.3148, Acc: 89.18%
+  Iteration 7 -> Duration: 350.53s | Test Accuracy: 94.20%, Global Sparsity: 79.03%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 8/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.0037016503047198057
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3087, Acc: 89.35%
+  Finetune Epoch 2/10 -> Loss: 0.3124, Acc: 89.21%
+  Finetune Epoch 3/10 -> Loss: 0.3063, Acc: 89.43%
+  Finetune Epoch 4/10 -> Loss: 0.3099, Acc: 89.26%
+  Finetune Epoch 5/10 -> Loss: 0.3093, Acc: 89.31%
+  Finetune Epoch 6/10 -> Loss: 0.3062, Acc: 89.39%
+  Finetune Epoch 7/10 -> Loss: 0.3146, Acc: 89.18%
+  Finetune Epoch 8/10 -> Loss: 0.3066, Acc: 89.34%
+  Finetune Epoch 9/10 -> Loss: 0.3084, Acc: 89.34%
+  Finetune Epoch 10/10 -> Loss: 0.3072, Acc: 89.43%
+  Iteration 8 -> Duration: 350.65s | Test Accuracy: 94.63%, Global Sparsity: 83.22%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 9/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.005331787746399641
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3104, Acc: 89.38%
+  Finetune Epoch 2/10 -> Loss: 0.3092, Acc: 89.51%
+  Finetune Epoch 3/10 -> Loss: 0.3058, Acc: 89.40%
+  Finetune Epoch 4/10 -> Loss: 0.3015, Acc: 89.69%
+  Finetune Epoch 5/10 -> Loss: 0.3071, Acc: 89.52%
+  Finetune Epoch 6/10 -> Loss: 0.3024, Acc: 89.74%
+  Finetune Epoch 7/10 -> Loss: 0.3071, Acc: 89.40%
+  Finetune Epoch 8/10 -> Loss: 0.3075, Acc: 89.39%
+  Finetune Epoch 9/10 -> Loss: 0.3017, Acc: 89.55%
+  Finetune Epoch 10/10 -> Loss: 0.3064, Acc: 89.33%
+  Iteration 9 -> Duration: 384.27s | Test Accuracy: 94.55%, Global Sparsity: 86.58%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 10/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.008092735894024372
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3142, Acc: 89.66%
+  Finetune Epoch 2/10 -> Loss: 0.3068, Acc: 89.71%
+  Finetune Epoch 3/10 -> Loss: 0.3078, Acc: 89.42%
+  Finetune Epoch 4/10 -> Loss: 0.3072, Acc: 89.52%
+  Finetune Epoch 5/10 -> Loss: 0.3081, Acc: 89.43%
+  Finetune Epoch 6/10 -> Loss: 0.3025, Acc: 89.80%
+  Finetune Epoch 7/10 -> Loss: 0.3057, Acc: 89.49%
+  Finetune Epoch 8/10 -> Loss: 0.3059, Acc: 89.60%
+  Finetune Epoch 9/10 -> Loss: 0.3064, Acc: 89.44%
+  Finetune Epoch 10/10 -> Loss: 0.3056, Acc: 89.41%
+  Iteration 10 -> Duration: 350.33s | Test Accuracy: 94.55%, Global Sparsity: 89.26%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 11/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.012653636746108532
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3223, Acc: 89.21%
+  Finetune Epoch 2/10 -> Loss: 0.3111, Acc: 89.53%
+  Finetune Epoch 3/10 -> Loss: 0.3080, Acc: 89.64%
+  Finetune Epoch 4/10 -> Loss: 0.3102, Acc: 89.28%
+  Finetune Epoch 5/10 -> Loss: 0.3068, Acc: 89.51%
+  Finetune Epoch 6/10 -> Loss: 0.3054, Acc: 89.59%
+  Finetune Epoch 7/10 -> Loss: 0.3016, Acc: 89.76%
+  Finetune Epoch 8/10 -> Loss: 0.3008, Acc: 89.66%
+  Finetune Epoch 9/10 -> Loss: 0.3047, Acc: 89.50%
+  Finetune Epoch 10/10 -> Loss: 0.2986, Acc: 89.75%
+  Iteration 11 -> Duration: 350.47s | Test Accuracy: 94.71%, Global Sparsity: 91.41%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 12/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.017426295205950737
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3304, Acc: 88.69%
+  Finetune Epoch 2/10 -> Loss: 0.3188, Acc: 89.14%
+  Finetune Epoch 3/10 -> Loss: 0.3183, Acc: 89.21%
+  Finetune Epoch 4/10 -> Loss: 0.3110, Acc: 89.34%
+  Finetune Epoch 5/10 -> Loss: 0.3112, Acc: 89.33%
+  Finetune Epoch 6/10 -> Loss: 0.3152, Acc: 89.33%
+  Finetune Epoch 7/10 -> Loss: 0.3063, Acc: 89.43%
+  Finetune Epoch 8/10 -> Loss: 0.3093, Acc: 89.37%
+  Finetune Epoch 9/10 -> Loss: 0.3088, Acc: 89.50%
+  Finetune Epoch 10/10 -> Loss: 0.3075, Acc: 89.53%
+  Iteration 12 -> Duration: 350.49s | Test Accuracy: 94.58%, Global Sparsity: 93.13%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 13/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.022168584167957306
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3561, Acc: 87.98%
+  Finetune Epoch 2/10 -> Loss: 0.3385, Acc: 88.49%
+  Finetune Epoch 3/10 -> Loss: 0.3341, Acc: 88.61%
+  Finetune Epoch 4/10 -> Loss: 0.3262, Acc: 88.88%
+  Finetune Epoch 5/10 -> Loss: 0.3225, Acc: 88.95%
+  Finetune Epoch 6/10 -> Loss: 0.3271, Acc: 88.86%
+  Finetune Epoch 7/10 -> Loss: 0.3201, Acc: 89.09%
+  Finetune Epoch 8/10 -> Loss: 0.3240, Acc: 88.82%
+  Finetune Epoch 9/10 -> Loss: 0.3166, Acc: 89.03%
+  Finetune Epoch 10/10 -> Loss: 0.3229, Acc: 88.87%
+  Iteration 13 -> Duration: 350.49s | Test Accuracy: 94.35%, Global Sparsity: 94.50%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 14/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.02694759890437126
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.3895, Acc: 86.91%
+  Finetune Epoch 2/10 -> Loss: 0.3659, Acc: 87.67%
+  Finetune Epoch 3/10 -> Loss: 0.3549, Acc: 87.80%
+  Finetune Epoch 4/10 -> Loss: 0.3484, Acc: 88.14%
+  Finetune Epoch 5/10 -> Loss: 0.3479, Acc: 88.03%
+  Finetune Epoch 6/10 -> Loss: 0.3443, Acc: 88.19%
+  Finetune Epoch 7/10 -> Loss: 0.3397, Acc: 88.27%
+  Finetune Epoch 8/10 -> Loss: 0.3358, Acc: 88.64%
+  Finetune Epoch 9/10 -> Loss: 0.3388, Acc: 88.33%
+  Finetune Epoch 10/10 -> Loss: 0.3354, Acc: 88.56%
+  Iteration 14 -> Duration: 350.28s | Test Accuracy: 94.40%, Global Sparsity: 95.60%
+
+  Accuracy is above threshold. Saving model state and continuing.
+--- Iteration 15/80 ---
+Pruned 20.00% of remaining weights. New threshold: 0.03178098052740097
+Finetuning for 10 epochs with LR=0.001...
+  Finetune Epoch 1/10 -> Loss: 0.4394, Acc: 85.07%
+  Finetune Epoch 2/10 -> Loss: 0.3956, Acc: 86.37%
+  Finetune Epoch 3/10 -> Loss: 0.3802, Acc: 86.95%
+  Finetune Epoch 4/10 -> Loss: 0.3771, Acc: 87.08%
+  Finetune Epoch 5/10 -> Loss: 0.3727, Acc: 87.23%
+  Finetune Epoch 6/10 -> Loss: 0.3660, Acc: 87.37%
+  Finetune Epoch 7/10 -> Loss: 0.3662, Acc: 87.39%
+  Finetune Epoch 8/10 -> Loss: 0.3678, Acc: 87.45%
+  Finetune Epoch 9/10 -> Loss: 0.3621, Acc: 87.66%
+  Finetune Epoch 10/10 -> Loss: 0.3619, Acc: 87.43%
+  Iteration 15 -> Duration: 350.34s | Test Accuracy: 93.76%, Global Sparsity: 96.48%
+
+
+Accuracy 93.76% fell below the threshold of 94.0%.
+Stopping the pruning process.
+Restored model to last good state.
+--- Completed Iterative Pruning ---
+Initial Accuracy: 94.87%
+Final Accuracy:   94.40%
+Final Sparsity:   95.60%
+
+--- Theoretically Possible Compression ---
+Original Model Size : 8.88 MB
+Compressed Model Size (if zeros removed): 0.46 MB
+Theoretically Possible Compression Ratio: 19.48x
+
+Final pruned model saved to ./checkpoints/mobilenetv2_cifar10_pruned.pth

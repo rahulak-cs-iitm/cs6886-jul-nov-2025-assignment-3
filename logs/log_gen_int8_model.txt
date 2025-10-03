@@ -1,0 +1,8 @@
+Converting ./checkpoints/mobilenetv2_pruned_symmetric_quantized_8bit.pth to int8
+Original size: 8.78 MB
+Int8 size: 2.47 MB
+Compression: 3.6x
+Files already downloaded and verified
+Files already downloaded and verified
+Evaluating accuracy...
+Int8 model accuracy: 94.47%
