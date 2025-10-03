@@ -295,10 +295,10 @@ def analyze_compression_journey():
         quantization_ratio = 8 / 32  # 8-bit vs 32-bit
         theoretical_weight_size = original_weight_size * sparsity_ratio * quantization_ratio
         # Using actual value from analyze_sparse_model
-        actual_weight_size = 0.57
+        # actual_weight_size = 0.57
         
-        weight_compression = original_weight_size / actual_weight_size 
-        # weight_compression = original_weight_size / theoretical_weight_size
+        # weight_compression = original_weight_size / actual_weight_size 
+        weight_compression = original_weight_size / theoretical_weight_size
         
         # Activation compression analysis
         activation_analysis = measure_activation_compression(final['stats'], quantization_bits=8)
@@ -327,8 +327,8 @@ def analyze_compression_journey():
         
         print(f"\nWeight Compression: {weight_compression:.1f}x")
         print(f"   Original weight size: {original_weight_size:.2f} MB")
-        print(f"   Final weight size: {actual_weight_size:.2f} MB") 
-        # print(f"   Theoretical final size: {theoretical_weight_size:.2f} MB") 
+        # TODO Recalculate with actual : print(f"   Final weight size: {actual_weight_size:.2f} MB") 
+        print(f"   Theoretical final size: {theoretical_weight_size:.2f} MB") 
         print(f"   Sparsity contribution: {1/sparsity_ratio:.1f}x")
         print(f"   Quantization contribution: {1/quantization_ratio:.1f}x")
         
