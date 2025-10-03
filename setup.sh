@@ -1,4 +1,4 @@
-pip3 install torch torchvision torchaudio
+pip3 install torch torchvision
 pip install matplotlib
 pip install wandb
 pip install pandas
