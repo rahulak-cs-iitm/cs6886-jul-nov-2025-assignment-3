@@ -7,7 +7,8 @@
 PYTHON := python3
 
 # --- PHONY Targets ---
-.PHONY: all train eval prune eval_sparsity quant int8_model compress analyze_compression
+.PHONY: all train eval prune eval_sparsity quant int8_model compress analyze_sparse_model compression_stats
+
 
 # --- Main Targets ---
 
@@ -40,7 +41,7 @@ quant:
 
 ## Runs symmetric quantization on the pruned model for 16/8/4 bits
 int8_model:
-	@echo "--- Generating int8 model (symmetric_quantization.py) ---"
+	@echo "--- Generating int8 model (gen_int8_model.py) ---"
 	$(PYTHON) gen_int8_model.py | tee ./logs/log_gen_int8_model.txt
 
 ## Runs Sparse compression on the int8 model
